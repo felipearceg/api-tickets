@@ -43,15 +43,18 @@ sudo service mysql start
 
 ![Image 9](https://github.com/felipearceg/api-tickets/blob/master/images/createdatabase.png)
 
+![Image 10](https://github.com/felipearceg/api-tickets/blob/master/images/cambiarpass.png)
+
+![Image 11](https://github.com/felipearceg/api-tickets/blob/master/images/service.png)
+
+
 ## Descargar el repositorio
 
-![Image 10](https://github.com/felipearceg/api-tickets/blob/master/images/descargarzip.png)
+![Image 12](https://github.com/felipearceg/api-tickets/blob/master/images/descargarzip.png)
 
-![Image 11](https://github.com/felipearceg/api-tickets/blob/master/images/unzip.png)
+![Image 13](https://github.com/felipearceg/api-tickets/blob/master/images/unzip.png)
 
 
-## Luego ejecutar la aplicación creando un ejecutable con go build
+## Luego ejecutar la aplicación
 
-go build .
-
-./api-tickets
+go run main.go
