@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Actualizar tiquetes</h2>
+
+    <form action="/actualizarresultado/?id={{.Id}}" method="POST">
+        <label for="usuario">ID Usuario:</label><br>
+        <input type="text" id="usuario" name="usuario" value="{{.Usuario}}"><br>
+
+        <label for="estado">Estado:</label><br>
+        <select name="estado" id="estado">
+            <option value="abierto">Abierto</option>
+            <option value="cerrado">Cerrado</option>
+        </select> <br> <br>
+        <input type="submit" value="Actualizar tiquete">
+    </form>
+
+    <br><br><br>
+    <a href="/buscar">Buscar tiquetes</a>
+
+</body>
+
+</html>

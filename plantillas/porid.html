@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Buscar por ID</h2>
+
+    <form action="/porid" method="POST">
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id" value=""><br><br>
+        <input type="submit" value="Buscar">
+    </form>
+    <br><br>
+
+    ID: {{.Id}}<br>
+    ID Usuario: {{.Usuario}}<br>
+    Fecha Creado: {{.FechaCreado}}<br>
+    Fecha actualizado: {{.FechaActualizado}}<br>
+    Estado: {{.Estado}}<br>
+    <a href="/actualizar/?id={{.Id}}">Editar</a>
+    <a href="/borrar/?id={{.Id}}">Borrar</a>
+    <br><br>
+
+    <br>
+    <a href="/buscar">Volver</a>
+</body>
+
+</html>

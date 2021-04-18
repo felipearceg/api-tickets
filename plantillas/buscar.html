@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div style="font-size: x-large;">Todos los tiquetes</div><br>
+    <a href="/insertar">Crear nuevo tiquete</a><br><br>
+    <a href="/porid">Buscar por ID</a><br><br>
+    {{range .}}
+    ID: {{.Id}}<br>
+    ID Usuario: {{.Usuario}}<br>
+    Fecha Creado: {{.FechaCreado}}<br>
+    Fecha actualizado: {{.FechaActualizado}}<br>
+    Estado: {{.Estado}}<br>
+    <a href="/actualizar/?id={{.Id}}">Editar</a>
+    <a href="/borrar/?id={{.Id}}">Borrar</a>
+    <br><br>
+    {{end}}
+
+
+</body>
+
+</html>
