@@ -18,3 +18,9 @@ create table tiquetes (
 	estado varchar(255),
 	primary key (id)
 );
+
+Luego ejecutar la aplicación creando un ejecutable con go build:
+
+go build .
+
+./api-tickets
