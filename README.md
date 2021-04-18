@@ -1,8 +1,6 @@
-# api-tickets
+# Para probar en local
 
-# **Para probar en local:**
-
-## **Instalar golang**
+## Instalar golang
 
 ![Image 1](https://github.com/felipearceg/api-tickets/blob/master/images/descargargo.png)
 
@@ -14,15 +12,15 @@
 
 ![Image 5](https://github.com/felipearceg/api-tickets/blob/master/images/reiniciar.png)
 
-## **Instalarmysql-server**
+## Instalarmysql-server
 
 ![Image 6](https://github.com/felipearceg/api-tickets/blob/master/images/update.png)
 
 ![Image 7](https://github.com/felipearceg/api-tickets/blob/master/images/instalarmysql.png)
 
-Ingresara la consola de MySQL y ejecutar las siguientes instrucciones:
+## Ingresara la consola de MySQL y ejecutar las siguientes instrucciones:
 
-create dtabase apitickets;
+create database apitickets;
 
 use apitickets;
 
@@ -35,7 +33,24 @@ create table tiquetes (
 	primary key (id)
 );
 
-Luego ejecutar la aplicación creando un ejecutable con go build:
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+sudo service mysql stop
+
+sudo service mysql start
+
+![Image 8](https://github.com/felipearceg/api-tickets/blob/master/images/ingresarmysql.png)
+
+![Image 9](https://github.com/felipearceg/api-tickets/blob/master/images/createdatabase.png)
+
+## Descargar el repositorio
+
+![Image 10](https://github.com/felipearceg/api-tickets/blob/master/images/descargarzip.png)
+
+![Image 11](https://github.com/felipearceg/api-tickets/blob/master/images/unzip.png)
+
+
+## Luego ejecutar la aplicación creando un ejecutable con go build
 
 go build .
 
