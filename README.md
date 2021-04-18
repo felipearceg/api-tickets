@@ -4,21 +4,21 @@ Para probar en local:
 
 Instalar golang
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/descargargo.png)
+![Image 1](https://github.com/felipearceg/api-tickets/blob/master/descargargo.png)
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/descomprimirgo.png)
+![Image 2](https://github.com/felipearceg/api-tickets/blob/master/descomprimirgo.png)
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/editaretcprofile.png)
+![Image 3](https://github.com/felipearceg/api-tickets/blob/master/editaretcprofile.png)
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/variabledeentorno.png)
+![Image 4](https://github.com/felipearceg/api-tickets/blob/master/variabledeentorno.png)
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/reiniciar.png)
+![Image 5](https://github.com/felipearceg/api-tickets/blob/master/reiniciar.png)
 
-Instalar mysql-server
+Instalarmysql-server
 
-Ingresar a la consola de MySQL y ejecutar las siguientes instrucciones:
+Ingresara la consola de MySQL y ejecutar las siguientes instrucciones:
 
-create database apitickets;
+create dtabase apitickets;
 
 use apitickets;
 
