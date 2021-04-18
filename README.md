@@ -4,15 +4,15 @@ Para probar en local:
 
 Instalar golang
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/descargargo.png?raw=true)
+![alt text](https://github.com/felipearceg/api-tickets/blob/master/descargargo.png)
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/descomprimirgo.png?raw=true)
+![alt text](https://github.com/felipearceg/api-tickets/blob/master/descomprimirgo.png)
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/editaretcprofile.png?raw=true)
+![alt text](https://github.com/felipearceg/api-tickets/blob/master/editaretcprofile.png)
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/variabledeentorno.png?raw=true)
+![alt text](https://github.com/felipearceg/api-tickets/blob/master/variabledeentorno.png)
 
-![alt text](https://github.com/felipearceg/api-tickets/blob/master/reiniciar.png?raw=true)
+![alt text](https://github.com/felipearceg/api-tickets/blob/master/reiniciar.png)
 
 Instalar mysql-server
 
