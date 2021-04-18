@@ -58,3 +58,5 @@ sudo service mysql start
 ## Luego ejecutar la aplicación
 
 go run main.go
+
+![Image 14](https://github.com/felipearceg/api-tickets/blob/master/images/run.png)
