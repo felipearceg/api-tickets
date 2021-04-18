@@ -12,13 +12,13 @@
 
 ![Image 5](https://github.com/felipearceg/api-tickets/blob/master/images/reiniciar.png)
 
-## Instalarmysql-server
+## Instalar mysql-server
 
 ![Image 6](https://github.com/felipearceg/api-tickets/blob/master/images/update.png)
 
 ![Image 7](https://github.com/felipearceg/api-tickets/blob/master/images/instalarmysql.png)
 
-## Ingresara la consola de MySQL y ejecutar las siguientes instrucciones:
+## Ingresara a la consola de MySQL y ejecutar las siguientes instrucciones:
 
 create database apitickets;
 
