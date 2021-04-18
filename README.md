@@ -1,4 +1,11 @@
 # api-tickets
+
+Para probar en local:
+
+Instalar mysql-server
+
+Ingresar a la consola de MySQL y ejecutar las siguientes instrucciones:
+
 create database apitickets;
 
 use apitickets;
