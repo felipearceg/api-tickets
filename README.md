@@ -2,6 +2,8 @@
 
 Para probar en local:
 
+Instalar golang
+
 Instalar mysql-server
 
 Ingresar a la consola de MySQL y ejecutar las siguientes instrucciones:
