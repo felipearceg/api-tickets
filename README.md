@@ -1,8 +1,8 @@
 # api-tickets
 
-#Para probar en local:
+# **Para probar en local:**
 
-##Instalar golang
+## **Instalar golang**
 
 ![Image 1](https://github.com/felipearceg/api-tickets/blob/master/images/descargargo.png)
 
@@ -14,7 +14,7 @@
 
 ![Image 5](https://github.com/felipearceg/api-tickets/blob/master/images/reiniciar.png)
 
-##Instalarmysql-server
+## **Instalarmysql-server**
 
 ![Image 6](https://github.com/felipearceg/api-tickets/blob/master/images/update.png)
 
